@@ -1,6 +1,3 @@
-import base64
-from io import BytesIO
-from pyrsistent import T
 import torch
 import streamlit as st
 from PIL import Image
