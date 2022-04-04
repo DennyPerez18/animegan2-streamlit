@@ -4,6 +4,7 @@ argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 asttokens==2.0.5
 attrs==21.4.0
+autopep8==1.6.0
 backcall==0.2.0
 beautifulsoup4==4.10.0
 bleach==4.1.0
@@ -50,6 +51,7 @@ parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.1.0
+plotly==5.6.0
 prometheus-client==0.13.1
 prompt-toolkit==3.0.29
 protobuf==3.20.0
@@ -57,6 +59,7 @@ psutil==5.9.0
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pyarrow==7.0.0
+pycodestyle==2.8.0
 pycparser==2.21
 pydeck==0.7.1
 Pygments==2.11.2
@@ -75,11 +78,13 @@ smmap==5.0.0
 soupsieve==2.3.1
 stack-data==0.2.0
 streamlit==1.8.1
+tenacity==8.0.1
 terminado==0.13.3
 testpath==0.6.0
 toml==0.10.2
 toolz==0.11.2
 torch==1.11.0
+torchvision==0.12.0
 tornado==6.1
 traitlets==5.1.1
 typing_extensions==4.1.1
