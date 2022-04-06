@@ -1,4 +1,3 @@
-import base64
 from io import BytesIO
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
@@ -16,7 +15,7 @@ def create_side_by_side_image(image1, image2):
     return fig
 
 
-def save_pil_image_as_str(image):
+def save_pil_image_as_bytes(image):
     buffered = BytesIO()
     image.save(buffered, format="PNG")
-    return base64.b64encode(buffered.getvalue()).decode()
+    return buffered.getvalue()

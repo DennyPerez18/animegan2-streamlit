@@ -38,6 +38,6 @@ if img_file is not None:
 
     st.sidebar.download_button(
         "Download trained image as PNG",
-        save_pil_image_as_str(trained_img),
+        save_pil_image_as_bytes(trained_img),
         mime="image/png"
     )
