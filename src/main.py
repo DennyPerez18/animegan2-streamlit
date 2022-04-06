@@ -2,7 +2,7 @@ import torch
 import streamlit as st
 from PIL import Image
 
-from utils import create_side_by_side_image, save_pil_image_as_str
+from src.utils import create_side_by_side_image, save_pil_image_as_str
 
 
 REPO = "bryandlee/animegan2-pytorch:main"
